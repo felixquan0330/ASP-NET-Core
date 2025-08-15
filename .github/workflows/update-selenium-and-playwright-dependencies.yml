@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Update dependencies
         run: pwsh eng/scripts/update-selenium-and-playwright-versions.ps1
